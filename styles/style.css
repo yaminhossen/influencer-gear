@@ -8,12 +8,12 @@ body{
     
 
 }
-main{
+/* main{
     display: flex;
     flex-direction: column;
-    /* background-color: olive; */
+    background-color: olive;
     width: 100%;
-}
+} */
 .nav-section{
     width: 1250px;
     height: 50px;
@@ -43,6 +43,7 @@ main{
 }
 main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -159,4 +160,109 @@ main{
 
 .far{
     color: orange;
+}
+/* ------------------ */
+/* @media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .players, .blogs, .courses{
+        
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .player, .blog{
+        flex-direction: column;
+    }
+    /* .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    } */
+
+@media only screen and (max-width:688px) {
+    main{
+        width: 300px;
+    }
+    .nav-section{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+        width: 200px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        
+    }
+    .influencer-journey{
+        width: 300px;
+    }
+    .influencer-dream-product img{
+        width: 250px;
+    }
+    .container-2{
+        width: 300px;
+    }
+    .popular-products{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-item{
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+    }
+    .item-banner img{
+        width: 320px;
+        
+    }
+    .item-details{
+        width: 300px;
+        margin-left: 5px;
+    }
+    
+}
+
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    main{
+        width: 800px;
+    }
+    .nav-section{
+        width: 800px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-2{
+        width: 700px;
+    }
+    .popular-products{
+        width: 700px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        grid-column-gap: 30px;
+    }
+    .feature-item{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .item-details{
+        margin: 0;
+    }
+    
 }
