@@ -2,7 +2,13 @@
 body{
     display: grid;
     justify-content: center;
+    background-color: whitesmoke;
+    
 
+}
+main{
+    display: flex;
+    flex-direction: column;
 }
 .nav-section{
     /* width: 80%; */
@@ -26,9 +32,28 @@ main{
 .influencer-journey{
     margin-top: 40px;
 }
-.influencer-journey h2{
+.influencer-title{
     font-size: 60px;
 }
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    height: 40px;
+    width: 200px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
 .influencer-dream-product{
-    margin-left: 70px;
+    margin-left: 200px;
+}
+.product{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: ;
 }
