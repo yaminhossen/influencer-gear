@@ -1,3 +1,8 @@
+ /* -----------------
+ body section start
+ -------------------- */
+
+
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -5,15 +10,16 @@ body{
     justify-content: center;
     background-color: rgb(245, 242, 245);
     margin: 0;
-    
-
 }
-/* main{
-    display: flex;
-    flex-direction: column;
-    background-color: olive;
-    width: 100%;
-} */
+
+
+/* ----------------------
+navigation section
+------------------------------ */
+
+
+
+
 .nav-section{
     width: 1250px;
     height: 50px;
@@ -32,8 +38,29 @@ body{
 #space{
     margin-right: 30px;
 }
-.influencer-product{
-    margin-left: 80px;
+
+
+
+
+
+/* ---------------------
+navigation section end
+-------------------------- */
+
+
+
+/* ------------------------
+main section start------------------
+----------------------- */
+
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .container{
     display: flex;
@@ -41,23 +68,22 @@ body{
     margin-top: 40px;
     margin-bottom: 100px;
 }
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .influencer-journey{
     width: 600px;
     
 }
-
 .influencer-title{
     font-size: 60px;
     font-weight: 700;
 }
 
-
+.influencer-product{
+    margin-left: 80px;
+}
+.influencer-dream-product{
+    margin-left: 200px;
+    margin-top: 50px;
+}
 .button{
     display: inline-block;
     text-decoration: none;
@@ -69,15 +95,23 @@ main{
     font-size: 16px;
     font-weight: 700;
 }
+
+
+
+/* -------------------------
+first section ended-------------
+------------------------- */
+
+/*--------------------------
+ second section start-----
+ --------------------------- */
+
 #collection{
     text-align: center;
     margin-bottom: 40px;
     font-size: 30px;
 }
-.influencer-dream-product{
-    margin-left: 200px;
-    margin-top: 50px;
-}
+
 .popular-products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -121,10 +155,20 @@ main{
     text-decoration: none;
     color: orange;
     font-size: 24px;
-    font-weight: 500;
-    
-    
+    font-weight: 500;   
 }
+
+
+/* ------------------------
+second section end---
+-------------------------- */
+
+
+/*------------------------
+ last section start--
+ ---------------------- */
+
+
 .feature-item{
     display: flex;
     margin-top: 100px;
@@ -139,44 +183,46 @@ main{
     margin-right: 20px;
     border-radius: 10px;
 }
+.item-details{
+    width: 700px;
+    margin-left: 100px;
+}
 .item-title{
     font-size: 40px;
     font-weight: 700;
 }
 
-.item-details{
-    width: 700px;
-    margin-left: 100px;
-}
+
+/*---------------------------
+ section closed --------------
+ ----------------*/
+
+ /*-------------------
+ ------------------ footer start-----------
+ ----------------------------------------------- */
+
 .footer{
     width: 100%;
     height: 200px;
     background-color: rgb(49, 49, 58);
     color: white;
-    text-align: center;
-    
-    
+    text-align: center;   
 }
-
 .far{
     color: orange;
 }
-/* ------------------ */
-/* @media only screen and (max-width:688px) {
-    .container{
-        width: 100%;
-    }
-    .players, .blogs, .courses{
-        
-        grid-template-columns: repeat(1, 1fr);
-        
-    }
-    .player, .blog{
-        flex-direction: column;
-    }
-    /* .blogs{
-        grid-template-columns: repeat(1, 1fr);
-    } */
+
+/*-------------------------------
+ -----------footer closed 
+ -----------------------------------*/
+
+
+
+
+/* -----------------------------------------------
+       media queri added for small divice 
+       ------------------------------------------*/
+
 
 @media only screen and (max-width:688px) {
     main{
@@ -228,6 +274,8 @@ main{
     
 }
 
+/*---------------------------------------------------- media queri added for medeum divice 
+-------------------------------------------------*/
 
 @media only screen and (min-width:688px) and (max-width:992px) {
     main{
