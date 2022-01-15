@@ -6,8 +6,6 @@
 
  body{
     font-family: 'Poppins', sans-serif;
-    display: grid;
-    justify-content: center;
     background-color: rgb(245, 242, 245);
     margin: 0;
 }
@@ -88,7 +86,7 @@ main{
     display: inline-block;
     text-decoration: none;
     color: rgb(245, 220, 79);
-    background-color: rgb(116, 107, 113);
+    background-color: rgb(84, 83, 85);
     padding: 10px 20px;
     padding-top: 10px;
     border-radius: 10px;
@@ -134,14 +132,12 @@ first section ended-------------
 .price{
     font-size: 20px;
     font-weight: 700;
-    color: rgb(85, 52, 52);
+    color: rgb(39, 35, 35);
 }
 .fas{
     color: rgb(247, 202, 57);
 }
-/* .rating-color{
-    color: orange;
-} */
+
 .rating span{
     font-weight: 700;
     color: rgb(116, 112, 112);
@@ -250,29 +246,34 @@ second section end---
     }
     .influencer-journey{
         width: 300px;
+        margin-left: 70px;
     }
     .influencer-dream-product img{
         width: 250px;
     }
     .container-2{
-        width: 300px;
+        width: 260px;
+        margin-left: 100px;
     }
     .popular-products{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        margin-left: 50p;
     }
     .feature-item{
         display: flex;
         flex-direction: column;
         width: 360px;
+        
     }
     .item-banner img{
         width: 320px;
+        margin-left: 50px;
         
     }
     .item-details{
         width: 300px;
-        margin-left: 5px;
+        margin-left: 50px;
     }
     
 }
